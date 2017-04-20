@@ -1,0 +1,16 @@
+﻿1.Задаем глобальное имя и email:
+	git config --global user.name "Имя"
+	git config --global user.email "Email"
+
+2.Для платформы windows корректная работа с crlf:
+	git config --global core.autocrlf true
+	git config --global core.safecrlf false	
+
+3.Правильное отображение русских символов в именах фалйов:
+	git config --local core.quotepath false
+
+4.Настройка соединения через прокси-сервер:
+	git config --global http.proxy http://user:password@myproxy.ru:3128
+
+5.Непонятная команда:
+	git config --global core.eol nativeп

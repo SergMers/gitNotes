@@ -13,4 +13,4 @@
 	git config --global http.proxy http://user:password@myproxy.ru:3128
 
 5.Непонятная команда:
-	git config --global core.eol nativeп
+	git config --global core.eol native
